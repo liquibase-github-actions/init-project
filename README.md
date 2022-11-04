@@ -6,7 +6,7 @@ Creates the directory and files needed to run Liquibase commands. Run without an
 ```yaml
 steps:
 - uses: actions/checkout@v3
-- uses: liquibase-github-actions/init-project@v4.17.0
+- uses: liquibase-github-actions/init-project@v4.17.1
   with:
     # Relative or fully qualified path to the changelog file
     # string
@@ -70,7 +70,7 @@ The liquibase init project action accepts all valid liquibase global options as 
 ```yaml
 steps:
   - uses: actions/checkout@v3
-  - uses: liquibase-github-actions/init-project@v4.17.0
+  - uses: liquibase-github-actions/init-project@v4.17.1
     with:
       headless: true
       licenseKey: ${{ secrets.LIQUIBASE_LICENSE_KEY }}
