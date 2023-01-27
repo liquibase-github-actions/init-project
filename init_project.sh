@@ -283,4 +283,4 @@ if [[ -n "$USEPROCEDURESCHEMA" ]]; then
 	GLOBALS+=("--use-procedure-schema=$USEPROCEDURESCHEMA")
 fi
 
-docker-entrypoint.sh "${GLOBALS[@]}" pro init project "${PARAMS[@]}"
+docker-entrypoint.sh "${GLOBALS[@]}" init project "${PARAMS[@]}"
