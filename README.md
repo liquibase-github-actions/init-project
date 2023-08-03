@@ -43,11 +43,6 @@ steps:
     # Optional
     projectGuide: ""
 
-    # For remote project locations, recursive copy all project files to the remote location
-    # bool
-    # Optional
-    recursive: ""
-
     # The JDBC database connection URL
     # string
     # Optional

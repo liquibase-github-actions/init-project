@@ -22,10 +22,9 @@ message Init {
     optional string project_defaults_file = 5; // File with default Liquibase properties
     optional string project_dir = 6; // Relative or fully qualified path to the directory where the project files will be created
     optional string project_guide = 7; // Allow interactive prompts for init project
-    optional bool recursive = 8; // For remote project locations, recursive copy all project files to the remote location
-    optional string url = 9; // The JDBC database connection URL
-    optional string username = 10; // Username to use to connect to the database
-    liquibase.GlobalOptions global_options = 11;
+    optional string url = 8; // The JDBC database connection URL
+    optional string username = 9; // Username to use to connect to the database
+    liquibase.GlobalOptions global_options = 10;
   }
 }
 
