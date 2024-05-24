@@ -21,7 +21,7 @@ message Init {
     optional string password = 4; // Password to use to connect to the database
     optional string project_defaults_file = 5; // File with default Liquibase properties
     optional string project_dir = 6; // Relative or fully qualified path to the directory where the project files will be created
-    optional string project_guide = 7; // Allow interactive prompts for init project
+    optional bool project_guide = 7; // Allow interactive prompts for init project
     optional string url = 8; // The JDBC database connection URL
     optional string username = 9; // Username to use to connect to the database
     liquibase.GlobalOptions global_options = 10;
